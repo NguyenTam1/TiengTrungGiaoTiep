@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+  <!--  <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtv_50_id"
+            android:textSize="30dp"
+            android:text="1"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/img_50_void"
+                    android:layout_alignParentRight="true"
+                    android:background="@null"
+                    android:src="@drawable/voidd"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/txtv_50_tv"
+                android:text="Bạn khỏe không?"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#031ff9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtv_50_tt"
+                android:text="你近来过的怎么样？"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#f90303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtv_50_pa"
+                android:text="Bạn khỏe không?"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+</LinearLayout>

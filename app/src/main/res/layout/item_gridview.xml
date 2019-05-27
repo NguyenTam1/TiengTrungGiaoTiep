@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@drawable/bg_item_thanhnguthongdung">
+        <TextView
+            android:id="@+id/txtv_gridView_tiengTrung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#da0c1d"
+            android:text="请超"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/txtv_gridView_phienAm"
+            android:layout_below="@id/txtv_gridView_tiengTrung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Qǐng chāo"
+            android:textStyle="italic"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/txtv_gridView_nghia"
+            android:layout_below="@+id/txtv_gridView_phienAm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Xin chao"
+            android:textColor="#0dbc12"/>
+        <TextView
+            android:id="@+id/txtvGridViewStt"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/txtv_gridView_nghia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_toRightOf="@id/txtv_gridView_nghia"/>
+    </LinearLayout>
+
+
+</LinearLayout>

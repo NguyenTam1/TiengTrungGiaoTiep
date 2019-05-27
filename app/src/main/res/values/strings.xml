@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TiengTrungGiaoTiep</string>
+    <string name="dau_nhan">Trong phiên âm	\n
+[ ˙ ] – thanh nhẹ	đọc như khi không có dấu
+nhưng ngắn hơi một chút	 \n
+[ 一 ] – thanh 1	đọc bình thường
+như không dấu	\n
+[ ˊ ] – thanh 2	đọc như dấu sắc	 \n
+[ ˇ ] – thanh 3	đọc như dấu hỏi	 \n
+[ ˋ ]	đọc gần như dấu nặng\n
+nhưng kéo dài một chút</string>
+</resources>

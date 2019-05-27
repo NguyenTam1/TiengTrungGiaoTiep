@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+ <android.support.design.widget.AppBarLayout
+     android:layout_width="match_parent"
+     android:layout_height="250dp">
+  <android.support.design.widget.CollapsingToolbarLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      app:layout_scrollFlags="exitUntilCollapsed|scroll"
+      app:contentScrim="?attr/colorPrimary"
+      app:title="Tiếng Trung giao tiếp"
+      app:expandedTitleMarginStart="48dp"
+      app:expandedTitleMarginEnd="64dp"
+     >
+
+   <android.support.v7.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       app:layout_collapseMode="pin"
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+   </android.support.v7.widget.Toolbar>
+
+  </android.support.design.widget.CollapsingToolbarLayout>
+ </android.support.design.widget.AppBarLayout>
+ <android.support.v4.widget.NestedScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     app:layout_behavior="@string/appbar_scrolling_view_behavior">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:padding="10dp">
+   <LinearLayout
+       android:clipToPadding="false"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/bankcardId"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:id="@+id/img_phienAm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#fc4b3b">
+            <ImageView
+
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_explicit_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Phiên âm tiếng trung"
+                android:textStyle="bold"
+                android:textColor="#fffdfd"/>
+
+        </LinearLayout>
+    <!-- <LinearLayout
+         android:id="@+id/l_nguPhapCoBan"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:background="#f7578a">
+      <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/ngphapcb"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_marginTop="10dp"
+          android:text="Ngữ pháp cơ bản"
+          android:textColor="#fffdfd"
+          android:gravity="center"/>
+
+
+
+     </LinearLayout>-->
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+     <LinearLayout
+         android:id="@+id/l_100ThanhNgu"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:background="#15f44d">
+      <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/t_100_thanhngu"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_marginTop="10dp"
+          android:gravity="center"
+          android:text="100 thành ngữ thông dụng"
+          android:textColor="#fffdfd"/>
+
+     </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:clipToPadding="false"
+       android:gravity="center"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+
+     <LinearLayout
+         android:id="@+id/l_100TuVungCapToc"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:background="#43a6f7">
+      <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/t_100_tuvungcaptoc"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="100 từ vựng cấp tốc"
+          android:textStyle="bold"
+          android:textColor="#fffdfd"
+          android:gravity="center"/>
+
+
+
+     </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:clipToPadding="false"
+       android:gravity="center"
+       android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+        <LinearLayout
+            android:id="@+id/l_nguPhapCoBan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#f7578a">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ngphapcb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Ngữ pháp cơ bản"
+                android:textColor="#fffdfd"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+     <!--<LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:background="#fc4b3b">
+      <ImageView
+          android:id="@+id/img_phienAm"
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/ic_explicit_black_24dp"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:gravity="center"
+          android:layout_gravity="center"
+          android:text="Phiên âm tiếng trung"
+          android:textStyle="bold"
+          android:textColor="#fffdfd"/>
+
+     </LinearLayout>-->
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+     <LinearLayout
+         android:id="@+id/l_caidat"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:background="#05eed3">
+      <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/giaotiep"/>
+
+      <TextView
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="10 bài đàm thoại cấp 1"
+          android:textStyle="bold"
+          android:textColor="#fffdfd"/>
+
+
+
+
+     </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:clipToPadding="false"
+       android:gravity="center"
+       android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+     <LinearLayout
+         android:id="@+id/l_50CauDamThoai"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:background="#dc4df5">
+      <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/key"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="Những câu đàm thoại thông dụng"
+          android:textStyle="bold"
+          android:textColor="#fffdfd"/>
+
+     </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+     <LinearLayout
+        android:id="@+id/l_moreApp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:background="#bcb7ad">
+      <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:src="@drawable/more_app"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:text="More app"
+          android:textStyle="bold"
+          android:textColor="#fffdfd"/>
+
+
+
+
+     </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+   </LinearLayout>
+   <android.support.v7.widget.CardView
+       android:foreground="?android:attr/selectableItemBackground"
+       android:clickable="true"
+       android:layout_width="340dp"
+       android:layout_height="150dp"
+       android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/l_100TuVungCapToc2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+     <!--<com.google.android.gms.ads.AdView
+         xmlns:ads="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/adView"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentBottom="true"
+         ads:adSize="LARGE_BANNER"
+         ads:adUnitId="ca-app-pub-7631747760063382/1313637435">
+     </com.google.android.gms.ads.AdView>-->
+
+    </LinearLayout>
+   </android.support.v7.widget.CardView>
+  </LinearLayout>
+ </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

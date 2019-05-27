@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nguyen.nguyen.tiengtrunggiaotiep1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tiengtrungicon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tiengtrungicon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.NguPhapCoBan"
+            android:theme="@style/ThemeNguPhapCoBan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.T100ThanhNguThongDung"
+            android:theme="@style/Thame100ThanhNguThongDung">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.T100TuVugCapToc"
+            android:theme="@style/Thame100TuVungCapToc">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.CaiDat"
+            android:theme="@style/ThemeCaiDat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.XemNoiDungNguPhap"
+            android:theme="@style/ThemeXemNguPhap">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.NguPhapCoBan" />
+        </activity>
+        <activity android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.AcHoiThoai" />
+        <activity android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.SimsimiActyvity" />
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.PhienAmActivity"
+            android:theme="@style/ThemePhienAm">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.NguPhapCoBan" />
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.Activity_10_BaiHoiThoaiCoBan"
+            android:theme="@style/Theme10BaiDamThoai">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.NguPhapCoBan" />
+        </activity>
+        <activity
+            android:name="com.nguyen.nguyen.tiengtrunggiaotiep1.Activity50_CauDamThoai"
+            android:theme="@style/Theme50CauDamThoai">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nguyen.nguyen.tiengtrunggiaotiep1.NguPhapCoBan" />
+        </activity>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+       <!-- <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7631747760063382~6510532916"/>-->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+    </application>
+
+</manifest>

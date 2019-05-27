@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeNguPhapCoBan" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#f7578a</item>
+    <item name="colorPrimaryDark">#f42768</item>
+    <item name="colorAccent">#ffff0000</item>
+    </style>
+
+    <style name="Thame100ThanhNguThongDung" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#15f44d</item>
+        <item name="colorPrimaryDark">#17de49</item>
+        <item name="colorAccent">#ffff0000</item>
+    </style>
+
+    <style name="Thame100TuVungCapToc" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#43a6f7</item>
+        <item name="colorPrimaryDark">#3493e1</item>
+        <item name="colorAccent">#ffff0000</item>
+    </style>
+
+    <style name="ThemeCaiDat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#bcb7ad</item>
+        <item name="colorPrimaryDark">#acabaa</item>
+        <item name="colorAccent">#ffff0000</item>
+    </style>
+
+    <style name="ThemeXemNguPhap" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#e7e5e1</item>
+        <item name="colorPrimaryDark">#d7d4d4</item>
+        <item name="colorAccent">#ffff0000</item>
+    </style>
+
+    <style name="ThemePhienAm" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#fc4b3b</item>
+        <item name="colorPrimaryDark">#d61414</item>
+        <item name="colorAccent">#fc4b3b</item>
+    </style>
+    <style name="Theme10BaiDamThoai" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#05eed3</item>
+        <item name="colorPrimaryDark">#11d2bc</item>
+        <item name="colorAccent">#fc4b3b</item>
+    </style>
+    <style name="Theme50CauDamThoai" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#dc4df5</item>
+        <item name="colorPrimaryDark">#ae20c7</item>
+        <item name="colorAccent">#fc4b3b</item>
+    </style>
+</resources>

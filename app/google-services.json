@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "172839508415",
+    "firebase_url": "https://tiengtrunggiaotiep-26d94.firebaseio.com",
+    "project_id": "tiengtrunggiaotiep-26d94",
+    "storage_bucket": "tiengtrunggiaotiep-26d94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172839508415:android:03e1666a970332dd",
+        "android_client_info": {
+          "package_name": "com.nguyen.tam.tiengtrunggiaotiep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172839508415-b31uie6u438fpdedtf6mg5e9mvdlapne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nguyen.tam.tiengtrunggiaotiep",
+            "certificate_hash": "5a51555fac6c6fdcef16453ff4fafc5ac20c7341"
+          }
+        },
+        {
+          "client_id": "172839508415-j6o8cj22l036tthl4mmvffa7sfs5dsrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyq_A2HSmPxkIRLQ1cQOgTlPMk7gXvrK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172839508415-j6o8cj22l036tthl4mmvffa7sfs5dsrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
